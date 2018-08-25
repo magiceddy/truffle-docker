@@ -1,0 +1,11 @@
+version: '3.7'
+services:
+  truffle:
+    build:
+      context: ./truffle5@beta
+      dockerfile: Dockerfile
+      cache_from: 
+        - magiceddy/truffle5:beta
+    command: bash
+    volumes:
+      - ./:/app
