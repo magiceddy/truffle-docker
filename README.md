@@ -3,7 +3,7 @@ Docker container for truffle
 
 ## Usage
 
-### Start the truffle service and run bash as command
+### Start truffle service
 ```$ docker-compose run truffle```
 
 ### In order to attach a terminal to the running container you need the container's ID or Name
