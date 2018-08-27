@@ -13,6 +13,6 @@ WORKDIR /app
 # Install the packeges
 RUN npm install -g truffle@beta
 
-# Expose port 8080
-EXPOSE 8080
+# Expose port 8080 & 8545
+EXPOSE 8080 9545
 
